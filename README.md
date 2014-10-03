@@ -5,7 +5,17 @@ A simple clock for javascript
 
 ###how to use
 
+	<script src="path-to-your/Clock.js"></script>
+
     var clock = new Clock();
+    
+    clock.onsec = function(){
+        console.log('this has ran ' + this.sec + 'seconds');
+    };
+    
+    clock.start();
+	
+more for below
 
 ###properties
 | property | description |
@@ -23,7 +33,7 @@ A simple clock for javascript
 
 ###event
 |event|description|
-|---|---|
+|--|--|
 |onhour|each hour call|
 |onmin|each min call|
 |onsec |each sec call|
