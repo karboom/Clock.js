@@ -23,7 +23,7 @@ A simple clock for javascript
 
 ###event
 |event|description|
-|--|--|
+|---|---|
 |onhour|each hour call|
 |onmin|each min call|
 |onsec |each sec call|
