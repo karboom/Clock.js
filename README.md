@@ -8,13 +8,13 @@ A simple clock for javascript
 <script src="path-to-your/Clock.js"></script>
 ```
 ```javascript
-    var clock = new Clock();
+var clock = new Clock();
+
+clock.onsec = function(){
+    console.log('this has ran ' + this.sec + 'seconds');
+};
     
-    clock.onsec = function(){
-        console.log('this has ran ' + this.sec + 'seconds');
-    };
-    
-    clock.start();
+clock.start();
 ```	
 more for below
 
