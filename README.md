@@ -5,23 +5,24 @@ A simple clock for javascript
 
 ###use case
 
-  var clock = new Clock();
-  clock1.onsec = function(){
-    console.log('this has ran ' + this.sec + 'seconds');
-  };
-  clock1.start();
-  clock1.onmin = function(){
+    var clock = new Clock();
+    clock1.onsec = function(){
+        console.log('this has ran ' + this.sec + 'seconds');
+    };
+    clock1.start();
+    clock1.onmin = function(){
     5 == this.min && this.reset();
-  };
+};
   
 
 ###property
-hour --hours clock has ran
+<table>
 
-min --mins clock has ran
+<tr><td>hour</td>hours clock has ran</tr>
+<tr><td>min</td>mins clock has ran</tr>
+<tr><td>sec</td>secs clock has ran</tr>
 
-sec --secs clock has ran
-
+</table>
 ###method
 start --start clock
 
