@@ -1,4 +1,4 @@
--Clock.js
+Clock.js
 ========
 
 A simple clock for javascript
