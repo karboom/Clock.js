@@ -4,9 +4,10 @@ Clock.js
 A simple clock for javascript
 
 ###how to use
-
-	<script src="path-to-your/Clock.js"></script>
-
+```html
+<script src="path-to-your/Clock.js"></script>
+```
+```javascript
     var clock = new Clock();
     
     clock.onsec = function(){
@@ -14,7 +15,7 @@ A simple clock for javascript
     };
     
     clock.start();
-	
+```	
 more for below
 
 ###properties
