@@ -1,4 +1,4 @@
-Clock.js
+-Clock.js
 ========
 
 A simple clock for javascript
@@ -33,7 +33,7 @@ more for below
 
 ###event
 |event|description|
-|--|--|
+|---|---|
 |onhour|each hour call|
 |onmin|each min call|
 |onsec |each sec call|
